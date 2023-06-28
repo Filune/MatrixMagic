@@ -3,4 +3,5 @@ main
 main.o
 matrix.o
 matrix_operations.o
+matrix_process.o
 MatrixMagic
