@@ -5,4 +5,4 @@ MatrixMagic allows users to perform operations on square matrices. The available
 The purpose of this project is to weave together linear algebra, structs, and dynamic memory management within C.
 
 ## Usage
-To run the program, simply compile it with a compiler for C.
+To run the program, first run `make` from a command line terminal inside the MatrixMagic directory. Then, run `./MatrixMagic`.
