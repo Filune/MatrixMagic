@@ -1,2 +1,6 @@
 main
 .vscode
+main.o
+matrix.o
+matrix_operations.o
+MatrixMagic
