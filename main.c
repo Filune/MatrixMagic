@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "matrix_process.h"
 #include "matrix_operations.h"
 
 /**
@@ -13,7 +14,6 @@
 int main(void)
 {
     int choice = 0;
-    int dimension = 0;
 
     printf("What operation would you like to perform?\n");
     printf("1. Matrix addition/subtraction\n");
@@ -24,11 +24,11 @@ int main(void)
 
     switch (choice) {
         case 1:
-            perform_multi_matrix_operation(dimension, matrix_addition);
+            perform_multi_matrix_operation(matrix_addition);
             break;
 
         case 2:
-            perform_multi_matrix_operation(dimension, matrix_multiplication);
+            perform_multi_matrix_operation(matrix_multiplication);
             break;
 
         case 3:
