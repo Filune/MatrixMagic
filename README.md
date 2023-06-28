@@ -1,5 +1,5 @@
 # MatrixMagic
-MatrixMagic allows users to perform operations on square matrices. The available operations are matrix multiplication, addition/subtraction, and finding the determinant.
+MatrixMagic allows users to perform operations on square matrices. The available operations are matrix multiplication, finding the transpose, addition/subtraction, and finding the determinant.
 
 ## Purpose
 The purpose of this project is to weave together linear algebra, structs, and dynamic memory management within C.
