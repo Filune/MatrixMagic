@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Wpedantic
 
-SRCS = main.c matrix.c matrix_operations.c
+SRCS = main.c matrix_process.c matrix_operations.c
 OBJS = $(SRCS:.c=.o)
 TARGET = MatrixMagic
 
