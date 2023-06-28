@@ -70,8 +70,8 @@ void perform_shared_matrix_operations(int* dimension, const Matrix* matrix_one) 
 
     printf("\n--------------\n");
     printf("Please enter the values for the first matrix.\n");
-    create_matrix(matrix_one, *dimension);
-    populate_matrix(matrix_one);
+    create_matrix((Matrix*)matrix_one, *dimension);
+    populate_matrix((Matrix*)matrix_one);
     printf("\nThe first matrix is:\n");
     display_matrix(matrix_one);
 }
